@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PixelRise Agency | User Dashboard</title>
+        <link rel="stylesheet" href="dashboard.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <aside class="sidebar">
+            <h2>🌐 PixelRise Agency</h2>
+
+            <ul>
+                <li class="active">📊 Dashboard</li>
+                <li>📅 My Booking</li>
+                <li>👤 Profile</li>
+                <li>💬 Support</li>
+                <li>🚪 Logout</li>
+            </ul>
+        </aside>
+
+        <main class="main">
+            <header class="header">
+                <div class="header-title">
+                    <p class="eyebrow">Updated today</p>
+                    <h1>👋 Welcome Back, Joseph</h1>
+                </div>
+            </header>
+
+            <section class="stats" aria-label="Dashboard overview">
+                <article class="card">
+                    <h3>📌 Active Booking</h3>
+                    <h2>1</h2>
+                </article>
+                <article class="card">
+                    <h3>🏨 Past Stays</h3>
+                    <h2>7</h2>
+                </article>
+                <article class="card">
+                    <h3>🎁 Reward Points</h3>
+                    <h2>350</h2>
+                </article>
+            </section>
+
+            <section class="upcoming-panel">
+                <h2>📅 Upcoming Booking</h2>
+                <div class="booking-card">
+                    <div class="booking-info">
+                        <h3>🚀 Our Projects</h3>
+                        <p><strong>Completed Projects:</strong> 26 October 2023</p>
+                        <p><strong>Incomplete:</strong> 30 October 2026</p>
+                    </div>
+                    <span class="confirmed">✅ Confirmed</span>
+                </div>
+            </section>
+
+            <section class="history-panel">
+                <h2>📜 Booking History</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Booking Id</th>
+                            <th>Service</th>
+                            <th>Start Date</th>
+                            <th>Completion Date</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>PRA001</td>
+                            <td>Web Development</td>
+                            <td>2026-07-30</td>
+                            <td>2026-08-05</td>
+                            <td>Completed</td>
+                        </tr>
+                        <tr>
+                            <td>PRA002</td>
+                            <td>API Integration</td>
+                            <td>2026-06-07</td>
+                            <td>2026-10-05</td>
+                            <td>Completed</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+
+        <script src="dashboard.js"></script>
+    </body>
+</html>
